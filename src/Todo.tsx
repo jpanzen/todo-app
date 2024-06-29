@@ -71,6 +71,11 @@ export default function Todo() {
             placeholder="Vložte nový úkol"
             value={text}
             onChange={(event) => setText(event.currentTarget.value)}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter') {
+                addTask(text);
+              }
+            }}
             rightSection={
               <CloseButton
                 aria-label="Clear input"
