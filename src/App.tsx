@@ -1,13 +1,10 @@
-import { useState } from 'react'
 import Todo from './Todo'
-import { AppShell } from '@mantine/core'
+import { AppShell, MantineProvider } from '@mantine/core'
 import '@mantine/core/styles.css';
-import { MantineProvider } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
 
 function App() {
   return (
-    <MantineProvider defaultColorScheme="dark">
+    <MantineProvider defaultColorScheme='dark' forceColorScheme='dark'>
       <AppShell padding="lg">
         <AppShell.Main w="100vw">
           <Todo></Todo>
