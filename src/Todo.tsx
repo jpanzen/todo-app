@@ -1,9 +1,7 @@
 // @ts-check
 
-import React, { useState, useEffect } from 'react';
 import { Flex, Button, Group, Center, ActionIcon, Input, CloseButton } from '@mantine/core';
 import { IconCheck, IconArrowDown, IconArrowUp } from '@tabler/icons-react';
-import { Task } from './models/Task';
 import useTasksStore from './tasksStore';
 import useTextStore from './textStore';
 
