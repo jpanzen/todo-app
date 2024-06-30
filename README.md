@@ -13,3 +13,4 @@ _Zadání bylo prostě jen vytvořit todo appku, takže jsem se snažil zanechat
 - Zápis nového úkolu funguje při stisknutí enteru
 - Appka ukládá úkoly na localstorage, takže při ukončení relace mi úkoly nezmizí
 - Můžu posouvat úkoly nahoru a dolů, pod čímž si můžu představit třeba prioritu úkolu
+- Appka používá state manager Zustand
