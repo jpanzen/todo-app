@@ -1,5 +1,11 @@
 # Todo aplikace
 
+**Spuštění**
+```
+npm install
+npm run dev
+```
+
 **Appku jsem postavil přes Vite bundler, protože:**
 
 - create-react-app je deprecated
